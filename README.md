@@ -18,20 +18,6 @@
 - 모바일/태블릿/데스크톱 반응형
 - 모션 최소화 설정 지원
 
-## 실행
-
-```bash
-npm install
-npm run dev
-```
-
-## 빌드
-
-```bash
-npm run build
-npm run preview
-```
-
 ## 배포
 
 정적 빌드 결과물인 `dist` 폴더를 Vercel, Netlify 또는 GitHub Pages에 배포할 수 있습니다.
