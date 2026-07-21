@@ -9,22 +9,6 @@
 - `script.js`: 문항, 점수, 추천 테마 로직
 - `print-survey.html`: A4 인쇄용 종이 설문지
 
-## 실행 방법
-
-폴더를 연 뒤 `index.html`을 브라우저에서 실행합니다. 별도 설치가 필요 없습니다.
-
-간단한 로컬 서버를 사용하는 경우:
-
-```bash
-python -m http.server 8000
-```
-
-이후 브라우저에서 `http://localhost:8000`으로 접속합니다.
-
-## 배포
-
-정적 파일만 사용하므로 Vercel, Netlify, GitHub Pages에 그대로 배포할 수 있습니다.
-
 ## 현재 추천 로직
 
 - 총점: 10문항 × 0~2점 = 0~20점
@@ -42,5 +26,5 @@ python -m http.server 8000
 - 관리자용 실시간 참여 통계
 - QR 접속 경로별 집계
 - 결과 이미지 저장 및 공유
-- Supabase/Firebase 연동
+- DB 연동
 - 행사별 문항과 굿즈 재고 관리
