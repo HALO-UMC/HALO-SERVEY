@@ -1,0 +1,11 @@
+<svg width="320" height="400" viewBox="0 0 320 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="160" cy="352" rx="92" ry="22" fill="#3E2C1E" fill-opacity="0.12"/>
+<circle cx="160" cy="190" r="138" fill="#F3EAF7"/>
+<rect x="63" y="74" width="194" height="256" rx="92" fill="#9B67B7"/>
+<path d="M83 104C70 73 82 48 112 57L126 84" fill="#9B67B7"/>
+<path d="M237 104C250 73 238 48 208 57L194 84" fill="#9B67B7"/>
+<circle cx="126" cy="162" r="10" fill="white"/>
+<circle cx="194" cy="162" r="10" fill="white"/>
+<path d="M143 196C151 206 169 206 177 196" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<text x="160" y="278" text-anchor="middle" fill="white" fill-opacity="0.92" font-family="sans-serif" font-size="42" font-weight="800">手</text>
+</svg>

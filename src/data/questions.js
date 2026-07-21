@@ -1,0 +1,110 @@
+export const ANSWER_OPTIONS = [
+  {
+    score: 2,
+    label: "바로 떠올라요",
+    description: "구체적인 장면이나 답이 바로 떠올라요.",
+  },
+  {
+    score: 1,
+    label: "잠시 생각하면 떠올라요",
+    description: "조금 생각하면 비슷한 장면이 떠올라요.",
+  },
+  {
+    score: 0,
+    label: "아직 잘 모르겠어요",
+    description: "지금은 뚜렷한 답이 떠오르지 않아요.",
+  },
+];
+
+export const QUESTIONS = [
+  {
+    id: "manual",
+    number: 1,
+    category: "부모님의 하루",
+    title: "부모님이 온전히 자신만을 위한 하루를 보낸다면, 무엇을 하고 싶어 할지 알고 있나요?",
+    helper: "누구의 부모도 아닌 한 사람으로서, 편안해지는 하루를 떠올려보세요.",
+    themeId: "manual",
+  },
+  {
+    id: "taste",
+    number: 2,
+    category: "오래 좋아해온 것",
+    title: "부모님이 오래 좋아해온 것과, 그 이유를 알고 있나요?",
+    helper: "음식, 노래, 장소, 물건처럼 오래 곁에 남은 취향을 생각해보세요.",
+    themeId: "taste",
+  },
+  {
+    id: "oldYou",
+    number: 3,
+    category: "나와 같은 나이였던 부모님",
+    title: "부모님이 지금의 내 나이였을 때 어떤 하루를 살았는지 알고 있나요?",
+    helper: "부모님에게도 지금의 나처럼 서툴고 고민이 많았던 시간이 있었습니다.",
+    themeId: "oldYou",
+  },
+  {
+    id: "temperature",
+    number: 4,
+    category: "말 대신 건넨 마음",
+    title: "부모님이 말 대신 행동으로 마음을 보여준 순간이 떠오르나요?",
+    helper: "차려둔 밥, 기다려준 시간, 반복하던 잔소리처럼 익숙한 장면도 괜찮아요.",
+    themeId: "temperature",
+  },
+  {
+    id: "walking",
+    number: 5,
+    category: "나란히 머문 시간",
+    title: "부모님과 마지막으로 목적 없이 천천히 걸었던 때를 기억하나요?",
+    helper: "특별한 외출이 아니어도 괜찮습니다. 함께 걸었던 골목도 포함됩니다.",
+    themeId: "walking",
+  },
+  {
+    id: "firstCare",
+    number: 6,
+    category: "부모님이 지쳐 있는 순간",
+    title: "부모님이 요즘 가장 지치는 순간과, 내가 덜어드릴 일을 알고 있나요?",
+    helper: "식사, 집안일, 심부름, 휴식처럼 작게 도울 수 있는 일을 생각해보세요.",
+    themeId: "firstCare",
+  },
+  {
+    id: "birthday",
+    number: 7,
+    category: "선물보다 받고 싶은 것",
+    title: "부모님이 생신에 선물보다 받고 싶어 하는 시간이나 말을 알고 있나요?",
+    helper: "함께 먹는 한 끼, 오래 나누는 대화, 짧은 편지도 포함됩니다.",
+    themeId: "birthday",
+  },
+  {
+    id: "familyPhoto",
+    number: 8,
+    category: "훗날 남기고 싶은 장면",
+    title: "지금의 가족을 사진 한 장만 남긴다면, 어떤 순간을 찍고 싶은가요?",
+    helper: "모두가 카메라를 보는 사진보다 우리 가족다운 평범한 순간을 생각해보세요.",
+    themeId: "familyPhoto",
+  },
+  {
+    id: "reaching",
+    number: 9,
+    category: "아직 건네지 못한 말",
+    title: "부모님께 아직 전하지 못한 고마움이나 미안함이 있나요?",
+    helper: "직접 말하기 어렵다면 마음속에서만 떠올려도 괜찮습니다.",
+    themeId: "reaching",
+  },
+  {
+    id: "fan",
+    number: 10,
+    category: "가장 가까운 응원",
+    title: "부모님이 요즘 가장 응원받고 싶어 하는 일을 알고 있나요?",
+    helper: "일, 건강, 취미처럼 조용히 이어가는 일도 포함됩니다.",
+    themeId: "fan",
+  },
+];
+
+export const REFLECTION_OPTIONS = [
+  { id: "oldYou", label: "부모님의 과거와 꿈" },
+  { id: "manual", label: "부모님의 진짜 취향과 하루" },
+  { id: "temperature", label: "말없이 건네온 마음" },
+  { id: "walking", label: "함께 보내지 못했던 시간" },
+  { id: "firstCare", label: "부모님이 요즘 힘들어하는 일" },
+  { id: "reaching", label: "아직 전하지 못한 말" },
+  { id: "fan", label: "부모님이 응원받고 싶은 일" },
+];
